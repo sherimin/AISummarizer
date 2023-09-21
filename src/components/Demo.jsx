@@ -103,7 +103,10 @@ const Demo = () => {
                 {item.url}
               </p>
 
-              <button>
+              <button 
+                className='peer-focus:text-gray-100'
+                onClick={() => alert('******')}
+              >
                 ✖️
               </button>
 
