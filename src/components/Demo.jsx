@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { copy, linkIcon, loader, tick } from '../assets';
+import { copy, linkIcon, loader, tick, deleteButton } from '../assets';
 import { useLazyGetSummaryQuery } from '../services/article';
 
 const Demo = () => {
@@ -45,6 +45,12 @@ const Demo = () => {
     setCopied(copyUrl);
     navigator.clipboard.writeText(copyUrl);
     setTimeout(() => setCopied(false), 3000);
+  }
+
+  const handleDelete = Url => {
+    setAllArticles(articles => {
+      return articles.filter(article => article.url !== Url)
+    })
   }
 
   return (
@@ -96,6 +102,11 @@ const Demo = () => {
               <p className='flex-1 font-satoshi text-blue-700 font-medium text-small truncate'>
                 {item.url}
               </p>
+
+              <button>
+                ✖️
+              </button>
+
             </div>
           ))}
         </div>
@@ -129,6 +140,7 @@ const Demo = () => {
           )
         )}
       </div>
+
     </section>
   )
 }
