@@ -1,11 +1,11 @@
 import React from 'react'
-import { logo2 } from '../assets';
+import logo3 from '../assets/logo3.png';
 
 const Hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-        <img src={logo2} alt="sumz_logo" className='w-28 object-contain' onClick="window.location.reload();" />
+        <img src={logo3} alt="sumz_logo" className='w-28 object-contain' onClick="window.location.reload();" />
 
         <button
           type="button"
@@ -22,7 +22,7 @@ const Hero = () => {
       </h1>
 
       <h2 className='desc'>
-        Efficient reading with <span className='orange_gradient'>TLDR PRO</span> , an open-source article summarizer designed to transform lengthy articles into concise and comprehensible summaries!
+        Efficient reading with <span className='yellow_gradient'>TLDR PRO</span> , an open-source article summarizer designed to transform lengthy articles into concise summaries!
       </h2>
     </header>
   )

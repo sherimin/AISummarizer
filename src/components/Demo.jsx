@@ -104,12 +104,11 @@ const Demo = () => {
               </p>
 
               <button 
-                className='peer-focus:text-gray-100'
-                onClick={() => alert('******')}
+                className=''
+                onClick={() => handleDelete(item.url)}
               >
                 ✖️
               </button>
-
             </div>
           ))}
         </div>

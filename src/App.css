@@ -84,7 +84,7 @@
 }
 
 .orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-rose-600 to-yellow-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-amber-500 via-rose-500 to-yellow-500 bg-clip-text text-transparent;
 }
 
 .desc {
@@ -109,6 +109,10 @@
 
 .blue_gradient {
   @apply font-black bg-gradient-to-r from-indigo-600 via-sky-700 to-cyan-700 bg-clip-text text-transparent;
+}
+
+.yellow_gradient {
+  @apply bg-gradient-to-r from-amber-700 to-yellow-600 bg-clip-text text-transparent;
 }
 
 .summary_box {
