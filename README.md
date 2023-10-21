@@ -1,8 +1,27 @@
-# React + Vite
+<!-- PROJECT LOGO -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# TLDR Pro
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TLDR Pro is an ai powered article summarizer which can convert lengthy articles into conscise paragraphs.
+
+This project is live at [here](https://ai-summarizer-kfnnmben9-sherimin.vercel.app) !
+
+## Screenshots of samples
+
+### Built With
+
+- [![Next][Next.js]][Next-url]
+- [![React][React.js]][React-url]
+
+## Getting Started
+
+1. Fork and clone this repository
+2. Run `npm run dev` to start.
+3. Go to http://localhost:5173/ in your browser and tinker with the app!
+
+## Acknowledgements
+
+- Canva(https://www.canva.com)
+- Base code and tutorial
