@@ -49,7 +49,12 @@ const Demo = () => {
 
   const handleDelete = Url => {
     setAllArticles(articles => {
-      return articles.filter(article => article.url !== Url)
+      const updatedArticles =  articles.filter(article => article.url !== Url);
+
+      // Update the local storage with the updated articles list
+      localStorage.setItem('articles', JSON.stringify(updatedAllArticles));
+
+      return updatedArticles;
     })
   }
 
