@@ -37,7 +37,7 @@ const Demo = () => {
       setArticle(newArticle);
       setAllArticles(updatedAllArticles);
 
-      localStorage.setItem('articles', JSON.stringify(updatedAllArticles))
+      localStorage.setItem('articles', JSON.stringify(updatedAllArticles));
     }
   }
 
@@ -52,7 +52,7 @@ const Demo = () => {
       const updatedArticles =  articles.filter(article => article.url !== Url);
 
       // Update the local storage with the updated articles list
-      localStorage.setItem('articles', JSON.stringify(updatedAllArticles));
+      localStorage.setItem('articles', JSON.stringify(updatedArticles));
 
       return updatedArticles;
     })
@@ -109,7 +109,7 @@ const Demo = () => {
               </p>
 
               <button 
-                className=''
+                className=' hover:border-red-700 mx-1.5 w-5 rounded border border-gray-200 font-sans text-sm font-medium'
                 onClick={() => handleDelete(item.url)}
               >
                 ✖️
