@@ -8,9 +8,10 @@ TLDR Pro is an AI-powered article summarizer that converts lengthy articles into
 
 This application allows users to save all summarized articles to local storage, and delete them when needed. It also includes error handling function and displaying error message when issues occurs. An Article's url can be copied by clipboard with one click.
 
-This application is live at [here]([https://ai-summarizer-kfnnmben9-sherimin.vercel.app](https://ai-summarizer-seven-alpha.vercel.app)) !
+This application is live at [here](https://ai-summarizer-sherimin.vercel.app) !
 
 ## Screenshots of sample pages
+
 Screenshot capturing the loading status of the page.
 
 ![Screenshot capturing the loading status of the page.](https://github.com/sherimin/AISummarizer/blob/master/src/assets/Sample-Loading.png)
