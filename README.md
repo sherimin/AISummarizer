@@ -1,6 +1,7 @@
 <!-- PROJECT LOGO -->
 
 # TLDR Pro
+https://github.com/sherimin/AISummarizer/assets/109632584/9f06b24b-db92-4ea5-8579-9bf33b1b9f70
 
 ## About the Project
 
@@ -29,8 +30,9 @@ Screenshot showcasing a sample summarized paragraph.
 ## Getting Started
 
 1. Fork and clone this repository
-2. Run `npm run dev` to start.
-3. Go to http://localhost:5173/ in your browser and tinker with the app!
+2. Install all dependencies using the `npm install` command.
+3. Run `npm run dev` to start.
+4. Go to http://localhost:5173/ in your browser and tinker with the app!
 
 ## Acknowledgements
 
