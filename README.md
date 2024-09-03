@@ -1,7 +1,8 @@
 <!-- PROJECT LOGO -->
 
 # TLDR Pro
-https://github.com/sherimin/AISummarizer/assets/109632584/9f06b24b-db92-4ea5-8579-9bf33b1b9f70
+
+https://github.com/sherimin/AISummarizer/assets/109632584/a48a6af6-c4e5-4fcb-81ae-aed9b9964382
 
 ## About the Project
 
